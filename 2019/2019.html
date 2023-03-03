@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>D3 Charts</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+      .stats {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        background-color: #4b4b4b;
+        color: #bebebe;
+        width: 100%;
+      }
+
+      .stats-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+
+      .stats-item:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Choose year for watch history</h1>
+      <a href="/index.html">Watch history from 2022</a>
+      <a href="/2021/2021.html">Watch history from 2021</a>
+      <a href="/2020/2020.html">Watch history from 2020</a>
+      
+      
+      
+      <h2>Watch history between January 1st 2019 and January 1st 2020&<br>Browser history between January 1st 2022 and Desember 1st 2022</h2>
+      
+      
+      
+      <h2>Browser history</h2>
+      <div class="charts-container-browser"></div>
+      <h2>Watch history</h2>
+      <div class="charts-container-youtube"></div>
+      <h2>Circular charts</h2>
+      <div class= "circular-charts"></div>
+      
+      <h2>Stats</h2>
+      <div class="stats">
+        <div class="stats-item">
+          <span>Data since</span>
+          <span id="stats-since"></span>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
