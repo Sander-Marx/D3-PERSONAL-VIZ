@@ -2,7 +2,7 @@
 Browser and yotube data visualized in D3.js. 
 This repository consists of the D3 code and a short scientific paper describing the project.
 
-Link to interactive website: [Website]([https://link-url-here.org](https://boisterous-licorice-ff19a8.netlify.app/))
+Link to interactive website: [Website](https://boisterous-licorice-ff19a8.netlify.app/)
 
 Below are some example pictures from the application.
 
